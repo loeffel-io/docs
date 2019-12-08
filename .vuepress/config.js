@@ -33,6 +33,13 @@ module.exports = {
     sidebar: {
       '/docs/1.0/': [
         {
+          title: 'Getting Started',
+          collapsable: false,
+          children: prefix('getting-started', [
+            'introduction',
+          ]),
+        },
+        {
           title: 'Server',
           collapsable: false,
           children: prefix('serve-server', [

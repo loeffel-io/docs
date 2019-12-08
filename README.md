@@ -14,5 +14,5 @@
 </p>
 
 <p align="center" id="get-started-container">
-    <a id="get-started" href="dfasdf">Get Started &rarr;</a>
+    <a id="get-started" href="/docs/1.0/getting-started/introduction.html">Get Started &rarr;</a>
 </p>
