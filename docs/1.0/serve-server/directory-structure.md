@@ -2,8 +2,6 @@
 
 Server organizes your services in a clean and modern way:
 
-[[toc]]
-
 ```text
 ~/serve
 ├── deployments
