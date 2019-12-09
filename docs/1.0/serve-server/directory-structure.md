@@ -24,6 +24,7 @@ Server organizes your services in a clean and modern way:
 │   ├── httpd-service
 │   │   │── latest
 │   ├── mysql-service
+│       │── database
 │       │── latest
 ```
 
@@ -33,11 +34,11 @@ The `serve` directory contains the core data of your server. All of your service
 
 ### The Deployments Directory
 
-The `deployments` directory contains the zipped files from your `serve client` - organized by unix timestamp.
+The `deployments` directory contains the zipped files from your `serve client` - organized by unix timestamps.
 
 ### The Builds Directory
 
-The `builds` directory contains the unzipped files of your deployments - organized by unix timestamp. 
+The `builds` directory contains the unzipped files of your deployments - organized by unix timestamps. 
 
 ### The Containers Directory
 
