@@ -1,9 +1,44 @@
 # Installation
 
+The Serve Server installation is just a pull and will cost you less than 60 seconds.
+
 [[toc]]
 
 ## Requirements
 
-*   PHP 7.1+
-*   [Composer](https://getcomposer.org)
-*   [Node](https://nodejs.org) & [NPM](https://www.npmjs.com/)
+*   Linux or MacOS machine
+*   Docker Engine 1.13.0+
+
+## Pull and run
+
+Just copy & paste this command to your machine to pull and run your `serve server` container. 
+
+:::warning Token
+
+Please replace the token with a secure and random string.  
+See also: [Configuration](/docs/1.0/serve-server/configuration.md)
+:::
+
+```bash
+docker run -d \
+    --restart always \
+    --name serve \
+    -p 8080:8080 \
+    -v /var/run/docker.sock:/var/run/docker.sock:ro \
+    -v ~/serve:/home/serve \
+    -e MAX_SIZE=32 \
+    -e TOKEN="RANDOM-TOKEN-HERE" \
+    loeffel/serve
+```
+
+## Automatic updates
+
+[Watchtower](https://github.com/containrrr/watchtower) provides and easy way to update your `serve server` automatically. 
+Just copy & paste this command to your machine to enable automatic updates:
+
+```bash
+docker run -d \
+    --name watchtower \
+    -v /var/run/docker.sock:/var/run/docker.sock:ro \
+    v2tec/watchtower serve
+```

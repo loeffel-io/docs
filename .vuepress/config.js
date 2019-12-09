@@ -45,6 +45,8 @@ module.exports = {
           children: prefix('serve-server', [
             'introduction',
             'installation',
+            'configuration',
+            'directory-structure'
           ]),
         },
         {

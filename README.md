@@ -4,13 +4,12 @@
 
 <p align="center">
     <a href="https://travis-ci.com/loeffel-io/serve-server"><img src="https://travis-ci.com/loeffel-io/serve-server.svg?token=diwUYjrdo8kHiwiMCFuq&branch=master" alt="Build Status"></a>
-    <img src="https://www.repostatus.org/badges/latest/wip.svg" alt="Project Status">
 </p>
 
 <h1 align="center">Serve - Painless Docker Deployments</h1>  
    
 <p align="center">
-    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus viverra aliquam risus, a consectetur ex rutrum ac. Maecenas tellus mauris, mattis.
+    Serve is an easy to use service and repository driven deployment framework based on <a href="https://docs.docker.com/compose">Docker Compose</a>. - Brings your services up in minutes!
 </p>
 
 <p align="center" id="get-started-container">

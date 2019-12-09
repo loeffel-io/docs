@@ -1,9 +1,11 @@
 # Introduction
 
+Serve Server receives your deployments and manages all your docker containers painlessly.
+
 [[toc]]
 
-## Requirements
+## References
 
-*   PHP 7.1+
-*   [Composer](https://getcomposer.org)
-*   [Node](https://nodejs.org) & [NPM](https://www.npmjs.com/)
+*   [GitHub](https://github.com/loeffel-io/serve-server)
+*   [Docker Hub](https://hub.docker.com/repository/docker/loeffel/serve)
+
