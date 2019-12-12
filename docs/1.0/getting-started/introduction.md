@@ -9,7 +9,7 @@ Serve is an easy to use service and repository driven deployment framework based
 Serve is build on two components:
 
 - Serve Server receives your deployments and manages all your docker containers painlessly.
-- Serve Client pushes your `.serve.yml` config and files to the Serve Server
+- Serve Client pushes your `.serve.yml` configs and files to the Serve Server
 
 ## Requirements 
 

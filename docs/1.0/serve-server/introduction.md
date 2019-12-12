@@ -1,6 +1,6 @@
 # Introduction
 
-Serve Server receives your deployments and manages all your docker containers painlessly.
+The Serve Server receives your deployments and manages all your docker containers painlessly.
 
 [[toc]]
 
@@ -8,4 +8,3 @@ Serve Server receives your deployments and manages all your docker containers pa
 
 *   [GitHub](https://github.com/loeffel-io/serve-server)
 *   [Docker Hub](https://hub.docker.com/repository/docker/loeffel/serve)
-

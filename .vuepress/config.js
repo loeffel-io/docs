@@ -54,7 +54,7 @@ module.exports = {
           collapsable: false,
           children: prefix('serve-client', [
             'introduction',
-            'installation',
+            'the-basics',
           ]),
         },
       ],

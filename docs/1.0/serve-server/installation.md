@@ -42,3 +42,11 @@ docker run -d \
     -v /var/run/docker.sock:/var/run/docker.sock:ro \
     v2tec/watchtower serve
 ```
+
+## Verify your installation
+
+To verify your `serve server` installation, you can just call the `ok` health api route of your server.
+
+```bash
+curl localhost:8080/ok # => {"data":"ok","error":null}
+```
