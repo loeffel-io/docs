@@ -1,0 +1,14 @@
+host: '64.225.102.159:8080'
+name: 'serve-docs'
+
+files:
+  - .vuepress/dist
+  - Dockerfile
+
+service:
+  build:
+    context: '%build_dir%'
+    dockerfile: Dockerfile
+  ports:
+    - 80:80
+
