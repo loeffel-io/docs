@@ -1,0 +1,21 @@
+notifications:
+  email: false
+  slack: false
+
+language: node_js
+
+node_js:
+  - 12
+
+install:
+  - yarn install
+
+script:
+  - yarn docs:build
+
+deploy:
+  skip_cleanup: true
+  provider: script
+  script: ./deploy.sh
+  on:
+    branch: master
