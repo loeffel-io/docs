@@ -3,7 +3,7 @@
 Server organizes your services in a clean and modern way:
 
 ```text
-~/serve
+~/makeless
 ├── deployments
 │   ├── httpd-service
 │   │   │── 1575901430.zip
@@ -26,13 +26,13 @@ Server organizes your services in a clean and modern way:
 │       │── latest
 ```
 
-## The Serve Directory 
+## The Makeless Directory 
 
-The `serve` directory contains the core data of your server. All of your services will be in this directory.
+The `makeless` directory contains the core data of your server. All of your services will be in this directory.
 
 ### The Deployments Directory
 
-The `deployments` directory contains the zipped files from your `serve client` - organized by unix timestamps.
+The `deployments` directory contains the zipped files from your `makeless client` - organized by unix timestamps.
 
 ### The Builds Directory
 

@@ -1,5 +1,5 @@
 module.exports = {
-  title: 'Serve',
+  title: 'Makeless',
   description: 'Painless Docker Deployments',
   base: '/',
 
@@ -15,18 +15,18 @@ module.exports = {
   ],
 
   themeConfig: {
-    logo: 'https://raw.githubusercontent.com/loeffel-io/serve-server/master/serve-logo.png',
+    logo: 'https://raw.githubusercontent.com/makeless/server/master/makeless-logo.png',
     displayAllHeaders: false,
     sidebarDepth: 1,
 
     nav: [
       {
         text: 'GitHub',
-        link: 'https://github.com/loeffel-io/serve-server',
+        link: 'https://github.com/makeless/server',
       },
       {
         text: 'Docker Hub',
-        link: 'https://hub.docker.com/repository/docker/loeffel/serve',
+        link: 'https://hub.docker.com/repository/docker/makeless/server',
       },
     ],
 
@@ -42,7 +42,7 @@ module.exports = {
         {
           title: 'Server',
           collapsable: false,
-          children: prefix('serve-server', [
+          children: prefix('makeless-server', [
             'introduction',
             'installation',
             'configuration',
@@ -52,7 +52,7 @@ module.exports = {
         {
           title: 'Client',
           collapsable: false,
-          children: prefix('serve-client', [
+          children: prefix('makeless-client', [
             'introduction',
             'the-basics',
           ]),

@@ -1,5 +1,5 @@
-host: '64.225.102.159:8080'
-name: 'serve-docs'
+host: 'localhost:8080'
+name: 'makeless-docs'
 
 files:
   - .vuepress/dist

@@ -1,15 +1,15 @@
 <p align="center">
-    <img width="180" src="https://raw.githubusercontent.com/loeffel-io/serve-server/master/serve-logo.png" alt="logo">
+    <img width="180" src="https://raw.githubusercontent.com/makeless/server/master/makeless-logo.png" alt="logo">
 </p>
 
 <p align="center">
-    <a href="https://travis-ci.com/loeffel-io/serve-server"><img src="https://travis-ci.com/loeffel-io/serve-server.svg?token=diwUYjrdo8kHiwiMCFuq&branch=master" alt="Build Status"></a>
+    <a href="https://travis-ci.com/makeless/server"><img src="https://travis-ci.com/makeless/server.svg?branch=master" alt="Build Status"></a>
 </p>
 
-<h1 align="center">Serve - Painless Docker Deployments</h1>  
+<h1 align="center">Makeless - Painless Docker Deployments</h1>  
    
 <p align="center">
-    Serve is an easy to use service and repository driven deployment framework based on <a href="https://docs.docker.com/compose">Docker Compose</a>. - Brings your services up in minutes!
+    Makeless is an easy to use service and repository driven deployment framework based on <a href="https://docs.docker.com/compose">Docker Compose</a>. - Brings your services up in minutes!
 </p>
 
 <p align="center" id="get-started-container">

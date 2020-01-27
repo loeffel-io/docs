@@ -1,6 +1,6 @@
 # Installation
 
-The Serve Server installation is just a pull and will cost you less than 60 seconds.
+The Makeless Server installation is just a pull and will cost you less than 60 seconds.
 
 [[toc]]
 
@@ -11,41 +11,41 @@ The Serve Server installation is just a pull and will cost you less than 60 seco
 
 ## Pull and run
 
-Just copy & paste this command to your machine to pull and run your `serve server` container. 
+Just copy & paste this command to your machine to pull and run your `makeless server` container. 
 
 :::warning Token
 
 Please replace the token with a secure and random string.  
-See also: [Configuration](/docs/1.0/serve-server/configuration.md)
+See also: [Configuration](/docs/1.0/makeless-server/configuration.md)
 :::
 
 ```bash
 docker run -d \
     --restart always \
-    --name serve \
+    --name makeless \
     -p 8080:8080 \
     -v /var/run/docker.sock:/var/run/docker.sock:ro \
-    -v ~/serve:/home/serve \
+    -v ~/makeless:/home/makeless \
     -e MAX_SIZE=32 \
     -e TOKEN="RANDOM-TOKEN-HERE" \
-    loeffel/serve
+    makeless/server
 ```
 
 ## Automatic updates
 
-[Watchtower](https://github.com/containrrr/watchtower) provides and easy way to update your `serve server` automatically. 
+[Watchtower](https://github.com/containrrr/watchtower) provides and easy way to update your `makeless server` automatically. 
 Just copy & paste this command to your machine to enable automatic updates:
 
 ```bash
 docker run -d \
     --name watchtower \
     -v /var/run/docker.sock:/var/run/docker.sock:ro \
-    v2tec/watchtower serve
+    v2tec/watchtower makeless
 ```
 
 ## Verify your installation
 
-To verify your `serve server` installation, you can just call the `ok` health api route of your server.
+To verify your `makeless server` installation, you can just call the `ok` health api route of your server.
 
 ```bash
 curl localhost:8080/ok # => {"data":"ok","error":null}

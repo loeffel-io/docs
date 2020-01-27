@@ -1,6 +1,6 @@
 # Configuration
 
-Serve supports some environment variables to customize your server:
+Makeless supports some environment variables to customize your server:
 
 | Name          | Description                                      | Default  |
 | ------------- |:------------------------------------------------:| --------:|
