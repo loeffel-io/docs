@@ -4,7 +4,7 @@
 
 <p align="center">
     <a href="https://travis-ci.com/makeless/server"><img src="https://travis-ci.com/makeless/server.svg?branch=master" alt="Build Status"></a>
-</p>
+</p> 
 
 <h1 align="center">Makeless - Painless Docker Deployments</h1>  
    
