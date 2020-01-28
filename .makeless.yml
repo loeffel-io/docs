@@ -4,8 +4,8 @@ name: 'makeless-docs'
 
 files:
   - .vuepress/dist
-  - Dockerfile
   - .htaccess
+  - Dockerfile
 
 use:
   makeless-shared:
