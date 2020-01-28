@@ -49,7 +49,7 @@ shared:
   ...
 ```
 
-The shared configuration ignores any service configuration.
+The shared configuration ignores any `service` and `use` configuration.
 
 ### Parameters
 
