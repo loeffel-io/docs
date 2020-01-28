@@ -40,4 +40,4 @@ The `builds` directory contains the unzipped files of your deployments - organiz
 
 ### The Containers Directory
 
-The `containers` directory contains your volumes and symlinks to your latest service builds.
+The `containers` directory should contains your volumes and symlinks to your latest service builds.
