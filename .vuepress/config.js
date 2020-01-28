@@ -28,6 +28,14 @@ module.exports = {
         text: 'Docker Hub',
         link: 'https://hub.docker.com/repository/docker/makeless/server',
       },
+      {
+        text: 'Imprint',
+        link: 'https://twys.io/imprint',
+      },
+      {
+        text: 'Imprint',
+        link: 'https://twys.io/privacy',
+      },
     ],
 
     sidebar: {
