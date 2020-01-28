@@ -1,3 +1,5 @@
 /.idea
 /node_modules
 /.vuepress/dist
+/docker-compose.yml
+/deploy.zip

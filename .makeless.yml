@@ -1,13 +1,19 @@
-host: '207.154.208.131:8080'
+https: true
+host: 'deployment.makeless.io:8080'
 name: 'makeless-docs'
 
 files:
   - .vuepress/dist
   - Dockerfile
+  - .htaccess
+
+use:
+  makeless-shared:
+    - ssl:ssl
 
 service:
   build:
-    context: '%build_dir%'
+    context: '%live_dir%'
     dockerfile: Dockerfile
   ports:
     - 80:80
