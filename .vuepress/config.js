@@ -32,10 +32,6 @@ module.exports = {
         text: 'Imprint',
         link: 'https://twys.io/imprint',
       },
-      {
-        text: 'Privacy',
-        link: 'https://twys.io/privacy',
-      },
     ],
 
     sidebar: {
