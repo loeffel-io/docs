@@ -11,6 +11,23 @@ This provides a better services organisation, keeps your projects clean and clea
 The `.makeless.yml` files are the heart of your deployments and lives in the root of your git repository or service/shared directory.
 There a two types of makeless configurations and each of them consists on just a few parameters.
 
+### The `shared` configuration 
+
+The shared configuration can share your files and docker ressources like `networks` with all your services and containers.
+
+```yaml
+https: false
+host: '123.123.123.123:8080'
+name: 'project-shared'
+
+files:
+  - ssl
+  ...
+
+shared:
+  ...
+```
+
 ### The `service` configuration
 
 The service configuration handles your docker service deployments and organize your service containers. 
@@ -31,23 +48,6 @@ use:
 service:
   ...
 ``` 
-
-### The `shared` configuration 
-
-The shared configuration can share your files and docker ressources like `networks` with all your services and containers.
-
-```yaml
-https: false
-host: '123.123.123.123:8080'
-name: 'project-shared'
-
-files:
-  - ssl
-  ...
-
-shared:
-  ...
-```
 
 The shared configuration ignores any `service` and `use` configuration.
 
