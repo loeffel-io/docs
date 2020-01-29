@@ -50,7 +50,7 @@ module.exports = {
             'introduction',
             'installation',
             'configuration',
-            'directory-structure'
+            'directory-structure',
           ]),
         },
         {
@@ -64,6 +64,15 @@ module.exports = {
       ],
     },
   },
+
+  plugins: [
+    [
+      '@vuepress/google-analytics',
+      {
+        'ga': 'UA-157298856-1', // UA-00000000-0
+      },
+    ],
+  ],
 };
 
 function prefix(prefix, children) {
