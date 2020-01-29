@@ -26,6 +26,12 @@ module.exports = {
         })(window,document,'https://static.hotjar.com/c/hotjar-','.js?sv=');
     `,
     ],
+    [
+      'script',
+      {
+        src: 'https://cmp.osano.com/Azyw8dRp0Gvht1H5S/5ad9b3b1-b1c0-4598-9b70-9ed02c17c241/osano.js',
+      },
+    ],
   ],
 
   themeConfig: {
