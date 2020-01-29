@@ -1,6 +1,6 @@
 module.exports = {
-  title: 'Makeless',
-  description: 'Painless Docker Deployments',
+  title: 'Makeless - Painless Docker Deployments',
+  description: 'Makeless is an easy to use service and repository driven deployment framework based on Docker Compose. - Brings your services up in minutes!',
   base: '/',
 
   head: [
