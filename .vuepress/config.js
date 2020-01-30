@@ -27,10 +27,25 @@ module.exports = {
     `,
     ],
     [
+      'link',
+      {
+        href: '//wpcc.io/lib/1.0.2/cookieconsent.min.css',
+        rel: 'stylesheet',
+        type: 'text/css',
+      },
+    ],
+    [
       'script',
       {
-        src: 'https://cmp.osano.com/Azyw8dRp0Gvht1H5S/5ad9b3b1-b1c0-4598-9b70-9ed02c17c241/osano.js',
+        src: '//wpcc.io/lib/1.0.2/cookieconsent.min.js',
       },
+    ],
+    [
+      'script',
+      {},
+      `
+        window.addEventListener("load", function(){window.wpcc.init({"corners":"small","colors":{"popup":{"background":"#f4f4f4","text":"#000000","border":"#555555"},"button":{"background":"#4585ab","text":"#ffffff"}},"position":"bottom-right","padding":"small","margin":"large","transparency":"5","content":{"href":"https://makeless.io/docs/1.0/legal/privacy.html"}})});
+      `,
     ],
   ],
 
@@ -47,10 +62,6 @@ module.exports = {
       {
         text: 'Docker Hub',
         link: 'https://hub.docker.com/repository/docker/makeless/server',
-      },
-      {
-        text: 'Imprint',
-        link: 'https://twys.io/imprint',
       },
     ],
 
@@ -79,6 +90,14 @@ module.exports = {
           children: prefix('makeless-client', [
             'introduction',
             'the-basics',
+          ]),
+        },
+        {
+          title: 'Legal',
+          collapsable: false,
+          children: prefix('legal', [
+            'imprint',
+            'privacy',
           ]),
         },
       ],
