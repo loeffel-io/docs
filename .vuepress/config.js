@@ -73,6 +73,10 @@ module.exports = {
         text: 'Docker Hub',
         link: 'https://hub.docker.com/repository/docker/makeless/server',
       },
+      {
+        text: 'Legal',
+        link: 'https://makeless.io/docs/1.0/legal/imprint.html',
+      },
     ],
 
     sidebar: {
