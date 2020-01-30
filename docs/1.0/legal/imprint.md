@@ -32,7 +32,7 @@ Umsatzsteuer-Identifikationsnummer gemäß §27 a Umsatzsteuergesetz: DE32271249
 Die Europäische Kommission stellt eine Plattform zur Online-Streitbeilegung (OS) bereit: [https://ec.europa.eu/consumers/odr](https://ec.europa.eu/consumers/odr)
 
 Wir sind nicht bereit oder verpflichtet, an Streitbeilegungsverfahren vor einer Verbraucherschlichtungsstelle teilzunehmen.
-Unsere [Datenschutzbedingungen](/docs/1.0/legal/privacy) finden Sie hier.
+Unsere [Datenschutzbedingungen](/docs/1.0/legal/privacy.md) finden Sie hier.
 
 ## Haftungsausschluss
 
