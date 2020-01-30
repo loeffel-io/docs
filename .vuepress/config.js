@@ -5,6 +5,16 @@ module.exports = {
 
   head: [
     [
+      [
+        'link',
+        {
+          rel: 'icon',
+          href: '/favicon.ico',
+          type: 'image/x-icon',
+        },
+      ],
+    ],
+    [
       'link',
       {
         href: 'https://fonts.googleapis.com/css?family=Ubuntu+Mono:400,400i,700,700i',
