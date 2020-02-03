@@ -104,6 +104,7 @@ module.exports = {
           children: prefix('makeless-client', [
             'introduction',
             'the-basics',
+            'placeholders',
             'examples',
           ]),
         },
