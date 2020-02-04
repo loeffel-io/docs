@@ -53,15 +53,15 @@ The shared configuration ignores any `service` and `use` configuration.
 
 ### Parameters
 
-| Name          | Description                                                                               |
-| ------------- |:-----------------------------------------------------------------------------------------:|
-| https         | Boolean value to enable or disable the https protocol                                     |
-| host          | The host and port of your [makeless server](/docs/1.0/makeless-server/introduction.md)    |
-| name          | The name of your service or shared ressource                                              |
-| files         | A list of all your files and directories you want to deploy                               |
-| use           | A list of all your files and directories you want to include from your different services |
-| service       | Your docker service configuration                                                         |
-| shared        | Your docker shared configurations like `networks`                                         |
+| Name          | Description                                                                                     |
+| ------------- |:-----------------------------------------------------------------------------------------------:|
+| https         | Boolean value to enable or disable the https protocol                                           |
+| host          | The host and port of your [makeless server](/docs/1.0/makeless-server/introduction.md)          |
+| name          | The name of your service or shared ressource (name of your service directories and container(s))|
+| files         | A list of all your files and directories you want to deploy                                     |
+| use           | A list of all your files and directories you want to include from your different services       |
+| service       | Your docker service configuration                                                               |
+| shared        | Your docker shared configurations like `networks`                                               |
 
 ## Deployment
 
