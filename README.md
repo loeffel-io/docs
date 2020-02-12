@@ -17,6 +17,7 @@
 
 <p align="center" id="get-started-container">
     <a id="get-started" href="/docs/1.0/getting-started/introduction.html">Get Started &rarr;</a>
+    <a id="video" href="https://www.youtube.com/watch?v=_MlREQ8C3mI" target="_blank">Play Video &rarr;</a>
 </p>
 
 <h2 style="margin-top:0; padding-bottom:10px; border-bottom: 2px solid rgba(0,0,0,0.05);">Deployments were never easier</h2>
