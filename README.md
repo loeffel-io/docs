@@ -3,7 +3,7 @@
 </p>
 
 <p align="center">
-    <iframe src="https://ghbtns.com/github-btn.html?user=makeless&repo=server&type=star&count=true" frameborder="0" scrolling="0" width="75px" height="20px"></iframe>
+    <iframe src="https://ghbtns.com/github-btn.html?user=makeless&repo=server&type=star&count=true" frameborder="0" scrolling="0" width="80px" height="20px"></iframe>
     <a href="https://travis-ci.com/makeless/server"><img src="https://travis-ci.com/makeless/server.svg?branch=master" alt="Build Status"></a>
     <a href="https://hub.docker.com/r/makeless/server"><img src="https://img.shields.io/docker/pulls/makeless/server" alt="Docker"></a>
 </p> 
