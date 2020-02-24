@@ -13,7 +13,7 @@ use:
 
 service:
   build:
-    context: '%live_dir%'
+    context: '%latest_dir%'
     dockerfile: Dockerfile
   ports:
     - 80:80

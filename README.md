@@ -44,7 +44,7 @@ use:                      # your files and directories you want to use from othe
 
 service:                  # your docker-compose service configuration
   build:
-    context: '%live_dir%'
+    context: '%latest_dir%'
     dockerfile: Dockerfile
   ports:
     - 80:80
