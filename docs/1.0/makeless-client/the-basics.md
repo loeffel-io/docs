@@ -76,7 +76,7 @@ Please replace the token with your `makeless server` token.
 ### MacOS
 
 ```bash
-curl -sL -o makeless https://github.com/makeless/makeless/releases/download/v1.1.1/makeless-darwin && \
+curl -sL -o makeless https://github.com/makeless/makeless/releases/download/v1.2.0/makeless-darwin && \
     chmod +x makeless && \
     TOKEN="RANDOM-TOKEN-HERE" ./makeless
 ```
@@ -84,7 +84,7 @@ curl -sL -o makeless https://github.com/makeless/makeless/releases/download/v1.1
 ### Linux
 
 ```bash
-curl -sL -o makeless https://github.com/makeless/makeless/releases/download/v1.1.1/makeless-linux && \
+curl -sL -o makeless https://github.com/makeless/makeless/releases/download/v1.2.0/makeless-linux && \
     chmod +x makeless && \
     TOKEN="RANDOM-TOKEN-HERE" ./makeless
 ```
