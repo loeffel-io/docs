@@ -44,7 +44,24 @@ docker run -d \
     -p 8080:8080 \
     -v /var/run/docker.sock:/var/run/docker.sock:ro \
     -v ~/makeless:/home/makeless \
-    -v ~/path/to/certs:/home/certs \
+    -v /path/to/certs:/home/certs \
+    -e MAX_SIZE=32 \
+    -e TOKEN="RANDOM-TOKEN-HERE" \
+    makeless/server
+```
+
+## Private Registry Support
+
+Pulling from private registries is supported by mounting your docker `config.json`.
+
+```bash
+docker run -d \
+    --restart always \
+    --name makeless \
+    -p 8080:8080 \
+    -v /var/run/docker.sock:/var/run/docker.sock:ro \
+    -v ~/makeless:/home/makeless \
+    -v ~/.docker/config.json:/root/.docker/config.json \
     -e MAX_SIZE=32 \
     -e TOKEN="RANDOM-TOKEN-HERE" \
     makeless/server
