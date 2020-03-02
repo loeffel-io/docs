@@ -58,6 +58,7 @@ The shared configuration ignores any `service` and `use` configuration.
 | https         | Boolean value to enable or disable the https protocol                                           |
 | host          | The host and port of your [makeless server](/docs/1.0/makeless-server/introduction.md)          |
 | name          | The name of your service or shared ressource (name of your service directories and container(s))|
+| pull          | Runs `docker-compose pull` before starting your service(s)                                      |
 | files         | A list of all your files and directories you want to deploy                                     |
 | use           | A list of all your files and directories you want to include from your different services       |
 | service       | Your docker service configuration                                                               |
@@ -76,7 +77,7 @@ Please replace the token with your `makeless server` token.
 ### MacOS
 
 ```bash
-curl -sL -o makeless https://github.com/makeless/makeless/releases/download/v1.2.0/makeless-darwin && \
+curl -sL -o makeless https://github.com/makeless/makeless/releases/download/v1.3.0/makeless-darwin && \
     chmod +x makeless && \
     TOKEN="RANDOM-TOKEN-HERE" ./makeless
 ```
@@ -84,7 +85,7 @@ curl -sL -o makeless https://github.com/makeless/makeless/releases/download/v1.2
 ### Linux
 
 ```bash
-curl -sL -o makeless https://github.com/makeless/makeless/releases/download/v1.2.0/makeless-linux && \
+curl -sL -o makeless https://github.com/makeless/makeless/releases/download/v1.3.0/makeless-linux && \
     chmod +x makeless && \
     TOKEN="RANDOM-TOKEN-HERE" ./makeless
 ```
